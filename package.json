@@ -1,0 +1,26 @@
+{
+    "name": "svelte-template",
+    "version": "1.0.0",
+    "description": "A svelte template",
+    "scripts": {
+      "build": "node esbuild.config.mjs build",
+      "watch": "node esbuild.config.mjs watch"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "esbuild": "^0.19.5",
+      "esbuild-plugin-copy": "^2.1.1",
+      "esbuild-svelte": "^0.8.0",
+      "@zerodevx/svelte-toast": "^0.9.5",
+      "axios": "^1.6.0",
+      "isomorphic-fetch": "^3.0.0",
+      "svelte": "^4.2.2",
+      "svelte-preprocess": "^5.0.4",
+      "typescript": "^5.2.2",
+      "url": "^0.11.3",
+      "svelte-routing": "^2.9.0",
+      "esbuild-sass-plugin": "^2.16.0"
+    }
+  }
+  
