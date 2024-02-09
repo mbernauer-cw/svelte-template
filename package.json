@@ -3,8 +3,8 @@
     "version": "1.0.0",
     "description": "A svelte template",
     "scripts": {
-      "build": "node esbuild.config.mjs build",
-      "watch": "node esbuild.config.mjs watch"
+      "build": "node esbuild/esbuild.mjs build",
+      "watch": "node esbuild/esbuild.mjs watch"
     },
     "author": "",
     "license": "ISC",
